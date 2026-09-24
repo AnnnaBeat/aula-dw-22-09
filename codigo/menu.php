@@ -6,9 +6,9 @@
     <title>Document</title>
 </head>
 <body>
-    <a target="conteudo" href="curso/cad_curso.php">Cadastro de Curso</a> <br>
+    <a target="conteudo" href="postagem/cad_postagem.php">Cadastro de Postagem</a> <br>
 
-    <a target="conteudo" href="professor/cad_professor.php">Cadastro de Professor</a> <br>
+    <a target="conteudo" href="postagem/lista_postagem.php">Lista postagem</a> <br>
     
     <a target="conteudo" href="curso/lista_curso.php">Lista de cursos</a> <br>
 
