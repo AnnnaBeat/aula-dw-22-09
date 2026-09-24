@@ -1,0 +1,13 @@
+<?php
+require_once "../conexao.php";
+
+$texto = $_GET['texto'];
+$idusuario = $_GET['idusuario'];
+
+$sql = "INSERT INTO postagem ( texto, idusuario) VALUES ( '$texto', $idusuario)";
+
+mysqli_query($conexao, $sql);
+
+header("Location: ../sucesso.html");
+
+?>
