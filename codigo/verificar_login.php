@@ -21,7 +21,8 @@
 
         $nome = $linha['nome'];
         $email = $linha['email'];
-        $foto = $linha['foto'];
+        // $foto = $linha['foto'];
+        $idusario = $linha ['idusuario'];
         // $idusario = $linha['idusuario'];
 
 
@@ -29,9 +30,11 @@
         //variável global
         
         session_start();
-        $_SESSION['logado'] = 1;
+        // $_SESSION['logado'] = 1;
         $_SESSION['email'] = $email;
         $_SESSION['nome'] = $nome;
+        $_SESSION['idusuario'] = $idusario;
+
         
         header("Location: principal.php");
     }

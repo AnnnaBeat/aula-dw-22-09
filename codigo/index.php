@@ -26,7 +26,7 @@
             $email = "";
         }
     ?>
-    <form action="verificar_login.php" method="post">
+    <form action="cad.postagem.php" method="POST">
         E-mail: <br>
         <input type="text" name="email" value="<?php echo $email; ?>"> <br><br>
         Senha: <br>
